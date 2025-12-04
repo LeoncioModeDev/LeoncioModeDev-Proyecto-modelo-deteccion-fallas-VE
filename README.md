@@ -87,24 +87,4 @@ Para el modelo XGBoost:
 - Selección del modelo final en función de F1 y ROC-AUC sobre el conjunto de validación. :contentReference[oaicite:7]{index=7}  
 
 ---
-
-## 🧱 Estructura sugerida del repositorio
-
-```bash
-.
-├── data/
-│   ├── heavy_user.csv        # Dataset original (no se sube si es sensible)
-│   └── processed/            # Pickles / CSV procesados
-├── notebooks/
-│   ├── 01_preprocesamiento.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_modelado_basico.ipynb
-│   └── 04_xgboost_optimizacion.ipynb
-├── src/
-│   ├── data_preparation.py
-│   ├── train_model.py
-│   └── evaluate_model.py
-├── reports/
-│   └── figuras_y_metricas/
-├── requirements.txt
 └── README.md
