@@ -13,7 +13,7 @@ Construir un **clasificador binario** que estime la probabilidad de que un vehí
 - Temperaturas de batería y motor
 - RPM y torque del motor
 - Presión de neumáticos y desgaste de frenos
-- Códigos de diagnóstico (DTC) :contentReference[oaicite:1]{index=1}  
+- Códigos de diagnóstico (DTC)
 
 ---
 
@@ -26,7 +26,7 @@ Construir un **clasificador binario** que estime la probabilidad de que un vehí
   - `battery_temp`, `motor_temp`
   - `motor_rpm`, `motor_torque`
   - `tire_pressure`, `brake_pad_wear`
-  - `dtc` (variable objetivo, binarizada: 0 = sin fallo, 1 = fallo) :contentReference[oaicite:2]{index=2}  
+  - `dtc` (variable objetivo, binarizada: 0 = sin fallo, 1 = fallo) 
 
 Características clave del dataset:
 
@@ -84,7 +84,6 @@ Para el modelo XGBoost:
 - Búsqueda de hiperparámetros usando:
   - `GridSearchCV`
   - `RandomizedSearchCV`
-- Selección del modelo final en función de F1 y ROC-AUC sobre el conjunto de validación. :contentReference[oaicite:7]{index=7}  
+- Selección del modelo final en función de F1 y ROC-AUC sobre el conjunto de validación.
 
 ---
-└── README.md
