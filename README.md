@@ -1,6 +1,6 @@
 # 🔧 Modelo Predictivo de Fallas en Vehículos Eléctricos
 
-Este proyecto implementa un modelo de **machine learning** para predecir fallas en vehículos eléctricos (EV) a partir de datos históricos de telemetría. El objetivo es apoyar estrategias de **mantenimiento predictivo**, reduciendo tiempos de inactividad, costos operativos y riesgos de seguridad asociados a fallos críticos. :contentReference[oaicite:0]{index=0}  
+Este proyecto implementa un modelo de **machine learning** para predecir fallas en vehículos eléctricos (EV) a partir de datos históricos de telemetría. El objetivo es apoyar estrategias de **mantenimiento predictivo**, reduciendo tiempos de inactividad, costos operativos y riesgos de seguridad asociados a fallos críticos.
 
 ---
 
