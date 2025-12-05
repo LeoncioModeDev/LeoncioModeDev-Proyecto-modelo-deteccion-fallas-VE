@@ -87,3 +87,34 @@ Para el modelo XGBoost:
 - Selección del modelo final en función de F1 y ROC-AUC sobre el conjunto de validación.
 
 ---
+
+## 🧱 Estructura sugerida del repositorio
+
+```bash
+.
+├── data/
+│   ├── df_eda.pickle
+│   ├── df_final.csv
+│   ├── df_heavy_cat.pickle
+│   ├── df_heavy_num.pickle
+│   ├── df_heavy_procesado.pickle
+│   ├── df_transformado.pickle
+│   ├── heavy_user.csv
+│   └── scaler_robust.sav
+├── model/
+│   ├── modelo_final_xgboost.sav
+├── notebooks/
+│   ├── 01_data_collect.ipynb
+│   ├── 02_data_quality_&_cleaning.ipynb
+│   ├── 03_exploratory_data_analysis.ipynb
+│   ├── 04_data_transformations.ipynb
+│   ├── 05_modeling_and_optimization.ipynb
+│   └── Codigo_completo_analisis_modelo_prediccion.ipynb
+├── reports/
+│   ├── modelos_curvas_roc.csv
+│   ├── modelos_matrices_confusion.csv
+│   ├── modelos_metricas.csv
+│   ├── tabla_bivariado.csv
+│   ├── tabla_multivariado.csv
+│   └── tabla_univariado.csv
+└── README.md
