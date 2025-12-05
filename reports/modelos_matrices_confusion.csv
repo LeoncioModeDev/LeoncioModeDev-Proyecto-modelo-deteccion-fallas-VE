@@ -1,0 +1,13 @@
+Modelo,Clase_real,Clase_predicha,Conteo
+Regresión Logística,0,0,5402
+Regresión Logística,0,1,3117
+Regresión Logística,1,0,38
+Regresión Logística,1,1,203
+Random Forest,0,0,8497
+Random Forest,0,1,22
+Random Forest,1,0,3
+Random Forest,1,1,238
+XGBoost,0,0,8488
+XGBoost,0,1,31
+XGBoost,1,0,18
+XGBoost,1,1,223
